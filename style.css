@@ -1,0 +1,27 @@
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Noto Serif Armenian', serif;
+	background-color: black;
+}	
+
+#home {
+	height: 95vh;
+}
+
+#card {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	max-height: 90vh;
+}
